@@ -1,0 +1,19 @@
+pip install Flask
+pip install BeautifulSoup4
+pip install pysqlite3
+
+Flask:
+https://dormousehole.readthedocs.io/en/latest/
+
+创建一个虚拟环境:
+$ mkdir myproject
+$ cd myproject
+$ python3 -m venv venv
+
+在 Windows 下：
+$ py -3 -m venv venv
+> venv\Scripts\activate
+
+set FLASK_ENV=development
+set FLASK_APP=api.py
+flask run
